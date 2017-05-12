@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+	  <link rel="stylesheet" href="css/AppStyles.css">
+  </head>
+  <body>
+
+    <script type="text/javascript">
+          window.onbeforeunload = function (e) {
+                var message = "Really leave the form? Data you have entered may not be saved.",
+                e = e || window.event;
+                // For IE and Firefox
+                if (e) { e.returnValue = message;}
+
+                // For Safari
+                return message;
+          };
+    </script>
+
+    <div class="container"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

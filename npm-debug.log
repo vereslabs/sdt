@@ -1,0 +1,935 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-bootstrap-table',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\\node\node
+5 warn package.json sd-tool@0.0.1 No repository field.
+6 warn package.json sd-tool@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react-bootstrap-table', null ]
+9 verbose cache add name=undefined spec="react-bootstrap-table" args=["react-bootstrap-table",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react-bootstrap-table',
+10 verbose parsed url   path: 'react-bootstrap-table',
+10 verbose parsed url   href: 'react-bootstrap-table' }
+11 silly lockFile 75642b16-react-bootstrap-table react-bootstrap-table
+12 verbose lock react-bootstrap-table C:\Users\Veres\AppData\Roaming\npm-cache\75642b16-react-bootstrap-table.lock
+13 silly lockFile 75642b16-react-bootstrap-table react-bootstrap-table
+14 silly lockFile 75642b16-react-bootstrap-table react-bootstrap-table
+15 verbose addNamed [ 'react-bootstrap-table', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile d942cc3f-react-bootstrap-table react-bootstrap-table@
+18 verbose lock react-bootstrap-table@ C:\Users\Veres\AppData\Roaming\npm-cache\d942cc3f-react-bootstrap-table.lock
+19 silly addNameRange { name: 'react-bootstrap-table', range: '*', hasData: false }
+20 verbose url raw react-bootstrap-table
+21 verbose url resolving [ 'https://registry.npmjs.org/', './react-bootstrap-table' ]
+22 verbose url resolved https://registry.npmjs.org/react-bootstrap-table
+23 info trying registry request attempt 1 at 16:48:23
+24 http GET https://registry.npmjs.org/react-bootstrap-table
+25 http 200 https://registry.npmjs.org/react-bootstrap-table
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'nginx/1.10.1',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'last-modified': 'Mon, 08 May 2017 15:55:04 GMT',
+26 silly registry.get     etag: 'W/"591094d8-591fe"',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '23932',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Tue, 09 May 2017 14:48:24 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-hhn1545-HHN',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1494341304.028442,VS0,VE2',
+26 silly registry.get     vary: 'Accept-Encoding' } ]
+27 silly addNameRange number 2 { name: 'react-bootstrap-table', range: '*', hasData: true }
+28 silly addNameRange versions [ 'react-bootstrap-table',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5',
+28 silly addNameRange     '0.5.6',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.8.4',
+28 silly addNameRange     '0.8.5',
+28 silly addNameRange     '0.8.6',
+28 silly addNameRange     '0.8.7',
+28 silly addNameRange     '0.8.8',
+28 silly addNameRange     '0.8.9',
+28 silly addNameRange     '0.8.10',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.9.3',
+28 silly addNameRange     '0.9.4',
+28 silly addNameRange     '0.9.5',
+28 silly addNameRange     '0.9.6',
+28 silly addNameRange     '0.9.7',
+28 silly addNameRange     '0.9.8',
+28 silly addNameRange     '0.9.9',
+28 silly addNameRange     '0.9.10',
+28 silly addNameRange     '0.9.12',
+28 silly addNameRange     '0.9.13',
+28 silly addNameRange     '0.9.14',
+28 silly addNameRange     '0.9.15',
+28 silly addNameRange     '0.9.16',
+28 silly addNameRange     '0.9.17',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.2.3',
+28 silly addNameRange     '1.2.4',
+28 silly addNameRange     '1.2.5',
+28 silly addNameRange     '1.2.6',
+28 silly addNameRange     '1.2.7',
+28 silly addNameRange     '1.2.8',
+28 silly addNameRange     '1.2.9',
+28 silly addNameRange     '1.2.10',
+28 silly addNameRange     '1.2.11',
+28 silly addNameRange     '1.2.12',
+28 silly addNameRange     '1.2.13',
+28 silly addNameRange     '1.2.14',
+28 silly addNameRange     '1.2.15',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.4.3',
+28 silly addNameRange     '1.4.4',
+28 silly addNameRange     '1.4.5',
+28 silly addNameRange     '1.4.6',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.5.1',
+28 silly addNameRange     '1.5.2',
+28 silly addNameRange     '1.5.3',
+28 silly addNameRange     '1.5.4',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.6.2',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.0.3',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.1.2',
+28 silly addNameRange     '2.1.3',
+28 silly addNameRange     '2.1.4',
+28 silly addNameRange     '2.1.5',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.3.2',
+28 silly addNameRange     '2.3.3',
+28 silly addNameRange     '2.3.4',
+28 silly addNameRange     '2.3.5',
+28 silly addNameRange     '2.3.6',
+28 silly addNameRange     '2.3.7',
+28 silly addNameRange     '2.3.8',
+28 silly addNameRange     '2.3.9',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2',
+28 silly addNameRange     '2.4.3',
+28 silly addNameRange     '2.4.4',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.5.2',
+28 silly addNameRange     '2.5.3',
+28 silly addNameRange     '2.5.4',
+28 silly addNameRange     '2.5.5',
+28 silly addNameRange     '2.5.6',
+28 silly addNameRange     '2.5.7',
+28 silly addNameRange     '2.5.8',
+28 silly addNameRange     '3.0.0-beta.2',
+28 silly addNameRange     '2.5.9',
+28 silly addNameRange     '2.6.0-beta.1',
+28 silly addNameRange     '2.6.0-beta.2',
+28 silly addNameRange     '2.6.0',
+28 silly addNameRange     '2.6.1-beta.1',
+28 silly addNameRange     '2.7.0',
+28 silly addNameRange     '3.0.0-beta.3',
+28 silly addNameRange     '2.7.1',
+28 silly addNameRange     '3.0.0-beta.4',
+28 silly addNameRange     '3.0.0-beta.5',
+28 silly addNameRange     '2.8.0',
+28 silly addNameRange     '2.8.2',
+28 silly addNameRange     '3.0.0-beta.6',
+28 silly addNameRange     '2.8.3',
+28 silly addNameRange     '2.9.0',
+28 silly addNameRange     '2.9.1',
+28 silly addNameRange     '2.9.2',
+28 silly addNameRange     '3.0.0-beta.7',
+28 silly addNameRange     '2.10.0-beta.1',
+28 silly addNameRange     '2.10.0',
+28 silly addNameRange     '2.10.1',
+28 silly addNameRange     '2.10.2',
+28 silly addNameRange     '2.11.0',
+28 silly addNameRange     '3.0.0-beta.8',
+28 silly addNameRange     '3.0.0-beta.9',
+28 silly addNameRange     '2.11.1',
+28 silly addNameRange     '2.11.2',
+28 silly addNameRange     '3.0.0-beta.10',
+28 silly addNameRange     '3.0.0-beta.11',
+28 silly addNameRange     '3.0.0-beta.12',
+28 silly addNameRange     '3.0.0',
+28 silly addNameRange     '3.1.0',
+28 silly addNameRange     '3.1.1',
+28 silly addNameRange     '3.1.2',
+28 silly addNameRange     '3.1.3',
+28 silly addNameRange     '3.1.4',
+28 silly addNameRange     '3.1.5',
+28 silly addNameRange     '3.1.6',
+28 silly addNameRange     '3.1.7',
+28 silly addNameRange     '4.0.0-beta.1',
+28 silly addNameRange     '3.1.8',
+28 silly addNameRange     '3.2.0',
+28 silly addNameRange     '3.2.1',
+28 silly addNameRange     '4.0.0-beta.2',
+28 silly addNameRange     '3.2.2',
+28 silly addNameRange     '3.3.0',
+28 silly addNameRange     '3.3.1',
+28 silly addNameRange     '3.3.2',
+28 silly addNameRange     '3.3.3' ] ]
+29 verbose addNamed [ 'react-bootstrap-table', '3.3.3' ]
+30 verbose addNamed [ '3.3.3', '3.3.3' ]
+31 silly lockFile dde1e06f-react-bootstrap-table-3-3-3 react-bootstrap-table@3.3.3
+32 verbose lock react-bootstrap-table@3.3.3 C:\Users\Veres\AppData\Roaming\npm-cache\dde1e06f-react-bootstrap-table-3-3-3.lock
+33 silly lockFile b6d0a601--react-bootstrap-table-3-3-3-tgz https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz
+34 verbose lock https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz C:\Users\Veres\AppData\Roaming\npm-cache\b6d0a601--react-bootstrap-table-3-3-3-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz',
+35 verbose addRemoteTarball   '18956dd84fe676cda0e030a78deb627610a2e628' ]
+36 info retry fetch attempt 1 at 16:48:24
+37 verbose fetch to= C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341304027-0.48801145190373063\tmp.tgz
+38 http GET https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz
+39 http 200 https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz
+40 verbose tar unpack C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341304027-0.48801145190373063\tmp.tgz
+41 silly lockFile efd4a3a2-ct-bootstrap-table-3-3-3-package tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package
+42 verbose lock tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package C:\Users\Veres\AppData\Roaming\npm-cache\efd4a3a2-ct-bootstrap-table-3-3-3-package.lock
+43 silly lockFile 5b7440a5-4027-0-48801145190373063-tmp-tgz tar://C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341304027-0.48801145190373063\tmp.tgz
+44 verbose lock tar://C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341304027-0.48801145190373063\tmp.tgz C:\Users\Veres\AppData\Roaming\npm-cache\5b7440a5-4027-0-48801145190373063-tmp-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry LICENSE
+48 silly gunzTarPerm extractEntry css/react-bootstrap-table.css
+49 silly gunzTarPerm extractEntry css/toastr.css
+50 silly gunzTarPerm extractEntry dist/react-bootstrap-table.js
+51 silly gunzTarPerm extractEntry dist/react-bootstrap-table.min.js
+52 silly gunzTarPerm extractEntry dist/react-bootstrap-table-all.min.css
+53 silly gunzTarPerm extractEntry dist/react-bootstrap-table.js.map
+54 silly gunzTarPerm extractEntry dist/react-bootstrap-table.min.css
+55 silly gunzTarPerm extractEntry lib/BootstrapTable.js
+56 silly gunzTarPerm extractEntry lib/Notification.js
+57 silly gunzTarPerm extractEntry lib/SelectRowHeaderColumn.js
+58 silly gunzTarPerm extractEntry lib/TableBody.js
+59 silly gunzTarPerm extractEntry lib/TableColumn.js
+60 silly gunzTarPerm extractEntry lib/Filter.js
+61 silly gunzTarPerm extractEntry lib/TableFilter.js
+62 silly gunzTarPerm extractEntry lib/Const.js
+63 silly gunzTarPerm extractEntry lib/TableHeaderColumn.js
+64 silly gunzTarPerm extractEntry lib/TableRow.js
+65 silly gunzTarPerm extractEntry lib/csv_export_util.js
+66 silly gunzTarPerm extractEntry lib/ExpandComponent.js
+67 silly gunzTarPerm extractEntry lib/filesaver.js
+68 silly gunzTarPerm extractEntry lib/Editor.js
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm extractEntry lib/TableEditColumn.js
+71 silly gunzTarPerm extractEntry lib/util.js
+72 silly gunzTarPerm extractEntry lib/TableHeader.js
+73 silly gunzTarPerm extractEntry lib/filters/Date.js
+74 silly gunzTarPerm extractEntry lib/filters/Number.js
+75 silly gunzTarPerm extractEntry lib/filters/Regex.js
+76 silly gunzTarPerm extractEntry lib/filters/Select.js
+77 silly gunzTarPerm extractEntry lib/filters/Text.js
+78 silly gunzTarPerm extractEntry lib/pagination/PageButton.js
+79 silly gunzTarPerm extractEntry lib/pagination/PaginationList.js
+80 silly gunzTarPerm extractEntry lib/pagination/SizePerPageDropDown.js
+81 silly gunzTarPerm extractEntry lib/store/TableDataStore.js
+82 silly gunzTarPerm extractEntry lib/toolbar/ButtonGroup.js
+83 silly gunzTarPerm extractEntry lib/toolbar/DeleteButton.js
+84 silly gunzTarPerm extractEntry lib/toolbar/ExportCSVButton.js
+85 silly gunzTarPerm extractEntry lib/toolbar/InsertButton.js
+86 silly gunzTarPerm extractEntry lib/toolbar/InsertModal.js
+87 silly gunzTarPerm extractEntry lib/toolbar/ClearSearchButton.js
+88 silly gunzTarPerm extractEntry lib/toolbar/InsertModalFooter.js
+89 silly gunzTarPerm extractEntry lib/toolbar/InsertModalHeader.js
+90 silly gunzTarPerm extractEntry lib/toolbar/SearchField.js
+91 silly gunzTarPerm extractEntry lib/toolbar/ShowSelectedOnlyButton.js
+92 silly gunzTarPerm extractEntry lib/toolbar/ToolBar.js
+93 silly gunzTarPerm extractEntry lib/toolbar/InsertModalBody.js
+94 silly gunzTarPerm extractEntry CHANGELOG.md
+95 silly gunzTarPerm extractEntry node_modules/history/package.json
+96 silly gunzTarPerm extractEntry node_modules/history/CHANGES.md
+97 silly gunzTarPerm extractEntry node_modules/history/LICENSE.md
+98 silly gunzTarPerm extractEntry node_modules/history/lib/Actions.js
+99 silly gunzTarPerm extractEntry node_modules/history/lib/HashProtocol.js
+100 silly gunzTarPerm extractEntry node_modules/history/lib/LocationUtils.js
+101 silly gunzTarPerm extractEntry node_modules/history/lib/PathUtils.js
+102 silly gunzTarPerm extractEntry node_modules/history/lib/ExecutionEnvironment.js
+103 silly gunzTarPerm extractEntry node_modules/history/lib/createBrowserHistory.js
+104 silly gunzTarPerm extractEntry node_modules/history/lib/createHashHistory.js
+105 silly gunzTarPerm extractEntry node_modules/history/lib/createHistory.js
+106 silly gunzTarPerm extractEntry node_modules/history/lib/createMemoryHistory.js
+107 silly gunzTarPerm extractEntry node_modules/history/lib/index.js
+108 silly gunzTarPerm extractEntry node_modules/history/lib/DOMUtils.js
+109 silly gunzTarPerm extractEntry node_modules/history/lib/runTransitionHook.js
+110 silly gunzTarPerm extractEntry node_modules/history/lib/DOMStateStorage.js
+111 silly gunzTarPerm extractEntry node_modules/history/lib/useBasename.js
+112 silly gunzTarPerm extractEntry node_modules/history/lib/BrowserProtocol.js
+113 silly gunzTarPerm extractEntry node_modules/history/lib/useBeforeUnload.js
+114 silly gunzTarPerm extractEntry node_modules/history/lib/AsyncUtils.js
+115 silly gunzTarPerm extractEntry node_modules/history/lib/useQueries.js
+116 silly gunzTarPerm extractEntry node_modules/history/lib/RefreshProtocol.js
+117 silly gunzTarPerm extractEntry node_modules/history/umd/history.js
+118 silly gunzTarPerm extractEntry node_modules/history/umd/history.min.js
+119 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/package.json
+120 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/README.md
+121 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/LICENSE
+122 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/browser.js
+123 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/invariant.js
+124 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/CHANGELOG.md
+125 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/invariant.js.flow
+126 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/package.json
+127 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/.npmignore
+128 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/README.md
+129 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/LICENSE
+130 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/cli.js
+131 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/custom.js
+132 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/index.js
+133 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/loose-envify.js
+134 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/replace.js
+135 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/package.json
+136 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/LICENSE
+137 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/index.js
+138 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/changelog.md
+139 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/readme.md
+140 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/package.json
+141 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/index.js
+142 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/license
+143 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/readme.md
+144 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/package.json
+145 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/index.js
+146 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/license
+147 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/readme.md
+148 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/package.json
+149 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/index.js
+150 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/license
+151 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/readme.md
+152 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/package.json
+153 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/README.md
+154 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/browser.js
+155 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/warning.js
+156 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/CHANGELOG.md
+157 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/LICENSE.md
+158 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/package.json
+159 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/.npmignore
+160 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/README.md
+161 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/LICENSE
+162 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/cli.js
+163 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/custom.js
+164 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/index.js
+165 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/loose-envify.js
+166 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/replace.js
+167 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/package.json
+168 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/LICENSE
+169 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/index.js
+170 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/changelog.md
+171 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/readme.md
+172 silly lockFile efd4a3a2-ct-bootstrap-table-3-3-3-package tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package
+173 silly lockFile efd4a3a2-ct-bootstrap-table-3-3-3-package tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package
+174 silly lockFile 5b7440a5-4027-0-48801145190373063-tmp-tgz tar://C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341304027-0.48801145190373063\tmp.tgz
+175 silly lockFile 5b7440a5-4027-0-48801145190373063-tmp-tgz tar://C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341304027-0.48801145190373063\tmp.tgz
+176 silly lockFile b6d0a601--react-bootstrap-table-3-3-3-tgz https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz
+177 silly lockFile b6d0a601--react-bootstrap-table-3-3-3-tgz https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz
+178 silly lockFile dde1e06f-react-bootstrap-table-3-3-3 react-bootstrap-table@3.3.3
+179 silly lockFile dde1e06f-react-bootstrap-table-3-3-3 react-bootstrap-table@3.3.3
+180 silly lockFile d942cc3f-react-bootstrap-table react-bootstrap-table@
+181 silly lockFile d942cc3f-react-bootstrap-table react-bootstrap-table@
+182 silly resolved [ { name: 'react-bootstrap-table',
+182 silly resolved     version: '3.3.3',
+182 silly resolved     description: 'It\'s a react table for bootstrap',
+182 silly resolved     main: './lib/index.js',
+182 silly resolved     repository:
+182 silly resolved      { type: 'git',
+182 silly resolved        url: 'https://github.com/AllenFang/react-bootstrap-table.git' },
+182 silly resolved     scripts:
+182 silly resolved      { lint: 'eslint src',
+182 silly resolved        test: 'jest',
+182 silly resolved        start: 'gulp example-server' },
+182 silly resolved     keywords: [ 'react', 'bootstrap', 'table', 'grid', 'react-component' ],
+182 silly resolved     files: [ 'README.md', 'lib/', 'dist/', 'css/' ],
+182 silly resolved     tags: [ 'react' ],
+182 silly resolved     author: { name: 'AllenFang' },
+182 silly resolved     license: 'MIT',
+182 silly resolved     devDependencies:
+182 silly resolved      { 'babel-core': '^6.0.0',
+182 silly resolved        'babel-eslint': '^6.0.0',
+182 silly resolved        'babel-loader': '^6.0.0',
+182 silly resolved        'babel-preset-es2015': '^6.18.0',
+182 silly resolved        'babel-preset-react': '^6.16.0',
+182 silly resolved        'babel-preset-stage-0': '^6.16.0',
+182 silly resolved        babelify: '^6.4.0',
+182 silly resolved        bootstrap: '3.3.5',
+182 silly resolved        browserify: '^11.2.0',
+182 silly resolved        'css-loader': '^0.21.0',
+182 silly resolved        del: '^2.2.0',
+182 silly resolved        eslint: '1.7.3',
+182 silly resolved        'eslint-config-airbnb': '0.1.0',
+182 silly resolved        'eslint-loader': '^1.3.0',
+182 silly resolved        'eslint-plugin-react': '3.6.3',
+182 silly resolved        gulp: '^3.9.1',
+182 silly resolved        'gulp-babel': '^6.0.0',
+182 silly resolved        'gulp-concat-css': '^2.2.0',
+182 silly resolved        'gulp-cssmin': '^0.1.7',
+182 silly resolved        'gulp-shell': '^0.5.2',
+182 silly resolved        history: '3.0.0',
+182 silly resolved        'jest-cli': '^19.0.2',
+182 silly resolved        jquery: '^2.1.4',
+182 silly resolved        'jsx-loader': '^0.13.2',
+182 silly resolved        react: '^0.14.3 || ^15.0.0',
+182 silly resolved        'react-bootstrap': '^0.29.5',
+182 silly resolved        'react-dom': '^0.14.3 || ^15.0.0',
+182 silly resolved        'react-hot-loader': '^3.0.0-beta.6',
+182 silly resolved        'react-router': '^3.0.0',
+182 silly resolved        'style-loader': '^0.13.0',
+182 silly resolved        'styled-components': '^1.2.1',
+182 silly resolved        toastr: '^2.1.2',
+182 silly resolved        'vinyl-source-stream': '^1.1.0',
+182 silly resolved        watchify: '^3.0.0',
+182 silly resolved        webpack: '^1.12.4',
+182 silly resolved        'webpack-dev-server': '^1.12.1' },
+182 silly resolved     dependencies:
+182 silly resolved      { classnames: '^2.1.2',
+182 silly resolved        'react-modal': '^1.4.0',
+182 silly resolved        '@allenfang/react-toastr': '2.8.2' },
+182 silly resolved     peerDependencies: { react: '^0.14.3 || ^15.0.0' },
+182 silly resolved     jest:
+182 silly resolved      { testEnvironment: 'node',
+182 silly resolved        unmockedModulePathPatterns: [Object] },
+182 silly resolved     bugs: { url: 'https://github.com/AllenFang/react-bootstrap-table/issues' },
+182 silly resolved     readme: 'ERROR: No README data found!',
+182 silly resolved     homepage: 'https://github.com/AllenFang/react-bootstrap-table',
+182 silly resolved     _id: 'react-bootstrap-table@3.3.3',
+182 silly resolved     _shasum: '18956dd84fe676cda0e030a78deb627610a2e628',
+182 silly resolved     _from: 'react-bootstrap-table@',
+182 silly resolved     _resolved: 'https://registry.npmjs.org/react-bootstrap-table/-/react-bootstrap-table-3.3.3.tgz' } ]
+183 info install react-bootstrap-table@3.3.3 into D:\veres\sdt
+184 info installOne react-bootstrap-table@3.3.3
+185 info D:\veres\sdt\node_modules\react-bootstrap-table unbuild
+186 verbose tar unpack C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package.tgz
+187 silly lockFile 6becebf8-de-modules-react-bootstrap-table tar://D:\veres\sdt\node_modules\react-bootstrap-table
+188 verbose lock tar://D:\veres\sdt\node_modules\react-bootstrap-table C:\Users\Veres\AppData\Roaming\npm-cache\6becebf8-de-modules-react-bootstrap-table.lock
+189 silly lockFile 12479c20-ootstrap-table-3-3-3-package-tgz tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package.tgz
+190 verbose lock tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package.tgz C:\Users\Veres\AppData\Roaming\npm-cache\12479c20-ootstrap-table-3-3-3-package-tgz.lock
+191 silly gunzTarPerm modes [ '755', '644' ]
+192 silly gunzTarPerm extractEntry package.json
+193 silly gunzTarPerm extractEntry LICENSE
+194 silly gunzTarPerm extractEntry css/react-bootstrap-table.css
+195 silly gunzTarPerm extractEntry css/toastr.css
+196 silly gunzTarPerm extractEntry dist/react-bootstrap-table.js
+197 silly gunzTarPerm extractEntry dist/react-bootstrap-table.min.js
+198 silly gunzTarPerm extractEntry dist/react-bootstrap-table-all.min.css
+199 silly gunzTarPerm extractEntry dist/react-bootstrap-table.js.map
+200 silly gunzTarPerm extractEntry dist/react-bootstrap-table.min.css
+201 silly gunzTarPerm extractEntry lib/BootstrapTable.js
+202 silly gunzTarPerm extractEntry lib/Notification.js
+203 silly gunzTarPerm extractEntry lib/SelectRowHeaderColumn.js
+204 silly gunzTarPerm extractEntry lib/TableBody.js
+205 silly gunzTarPerm extractEntry lib/TableColumn.js
+206 silly gunzTarPerm extractEntry lib/Filter.js
+207 silly gunzTarPerm extractEntry lib/TableFilter.js
+208 silly gunzTarPerm extractEntry lib/Const.js
+209 silly gunzTarPerm extractEntry lib/TableHeaderColumn.js
+210 silly gunzTarPerm extractEntry lib/TableRow.js
+211 silly gunzTarPerm extractEntry lib/csv_export_util.js
+212 silly gunzTarPerm extractEntry lib/ExpandComponent.js
+213 silly gunzTarPerm extractEntry lib/filesaver.js
+214 silly gunzTarPerm extractEntry lib/Editor.js
+215 silly gunzTarPerm extractEntry lib/index.js
+216 silly gunzTarPerm extractEntry lib/TableEditColumn.js
+217 silly gunzTarPerm extractEntry lib/util.js
+218 silly gunzTarPerm extractEntry lib/TableHeader.js
+219 silly gunzTarPerm extractEntry lib/filters/Date.js
+220 silly gunzTarPerm extractEntry lib/filters/Number.js
+221 silly gunzTarPerm extractEntry lib/filters/Regex.js
+222 silly gunzTarPerm extractEntry lib/filters/Select.js
+223 silly gunzTarPerm extractEntry lib/filters/Text.js
+224 silly gunzTarPerm extractEntry lib/pagination/PageButton.js
+225 silly gunzTarPerm extractEntry lib/pagination/PaginationList.js
+226 silly gunzTarPerm extractEntry lib/pagination/SizePerPageDropDown.js
+227 silly gunzTarPerm extractEntry lib/store/TableDataStore.js
+228 silly gunzTarPerm extractEntry lib/toolbar/ButtonGroup.js
+229 silly gunzTarPerm extractEntry lib/toolbar/DeleteButton.js
+230 silly gunzTarPerm extractEntry lib/toolbar/ExportCSVButton.js
+231 silly gunzTarPerm extractEntry lib/toolbar/InsertButton.js
+232 silly gunzTarPerm extractEntry lib/toolbar/InsertModal.js
+233 silly gunzTarPerm extractEntry lib/toolbar/ClearSearchButton.js
+234 silly gunzTarPerm extractEntry lib/toolbar/InsertModalFooter.js
+235 silly gunzTarPerm extractEntry lib/toolbar/InsertModalHeader.js
+236 silly gunzTarPerm extractEntry lib/toolbar/SearchField.js
+237 silly gunzTarPerm extractEntry lib/toolbar/ShowSelectedOnlyButton.js
+238 silly gunzTarPerm extractEntry lib/toolbar/ToolBar.js
+239 silly gunzTarPerm extractEntry lib/toolbar/InsertModalBody.js
+240 silly gunzTarPerm extractEntry CHANGELOG.md
+241 silly gunzTarPerm extractEntry node_modules/history/package.json
+242 silly gunzTarPerm extractEntry node_modules/history/CHANGES.md
+243 silly gunzTarPerm extractEntry node_modules/history/LICENSE.md
+244 silly gunzTarPerm extractEntry node_modules/history/lib/Actions.js
+245 silly gunzTarPerm extractEntry node_modules/history/lib/HashProtocol.js
+246 silly gunzTarPerm extractEntry node_modules/history/lib/LocationUtils.js
+247 silly gunzTarPerm extractEntry node_modules/history/lib/PathUtils.js
+248 silly gunzTarPerm extractEntry node_modules/history/lib/ExecutionEnvironment.js
+249 silly gunzTarPerm extractEntry node_modules/history/lib/createBrowserHistory.js
+250 silly gunzTarPerm extractEntry node_modules/history/lib/createHashHistory.js
+251 silly gunzTarPerm extractEntry node_modules/history/lib/createHistory.js
+252 silly gunzTarPerm extractEntry node_modules/history/lib/createMemoryHistory.js
+253 silly gunzTarPerm extractEntry node_modules/history/lib/index.js
+254 silly gunzTarPerm extractEntry node_modules/history/lib/DOMUtils.js
+255 silly gunzTarPerm extractEntry node_modules/history/lib/runTransitionHook.js
+256 silly gunzTarPerm extractEntry node_modules/history/lib/DOMStateStorage.js
+257 silly gunzTarPerm extractEntry node_modules/history/lib/useBasename.js
+258 silly gunzTarPerm extractEntry node_modules/history/lib/BrowserProtocol.js
+259 silly gunzTarPerm extractEntry node_modules/history/lib/useBeforeUnload.js
+260 silly gunzTarPerm extractEntry node_modules/history/lib/AsyncUtils.js
+261 silly gunzTarPerm extractEntry node_modules/history/lib/useQueries.js
+262 silly gunzTarPerm extractEntry node_modules/history/lib/RefreshProtocol.js
+263 silly gunzTarPerm extractEntry node_modules/history/umd/history.js
+264 silly gunzTarPerm extractEntry node_modules/history/umd/history.min.js
+265 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/package.json
+266 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/README.md
+267 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/LICENSE
+268 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/browser.js
+269 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/invariant.js
+270 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/CHANGELOG.md
+271 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/invariant.js.flow
+272 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/package.json
+273 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/.npmignore
+274 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/README.md
+275 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/LICENSE
+276 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/cli.js
+277 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/custom.js
+278 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/index.js
+279 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/loose-envify.js
+280 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/replace.js
+281 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/package.json
+282 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/LICENSE
+283 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/index.js
+284 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/changelog.md
+285 silly gunzTarPerm extractEntry node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/readme.md
+286 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/package.json
+287 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/index.js
+288 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/license
+289 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/readme.md
+290 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/package.json
+291 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/index.js
+292 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/license
+293 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/object-assign/readme.md
+294 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/package.json
+295 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/index.js
+296 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/license
+297 silly gunzTarPerm extractEntry node_modules/history/node_modules/query-string/node_modules/strict-uri-encode/readme.md
+298 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/package.json
+299 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/README.md
+300 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/browser.js
+301 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/warning.js
+302 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/CHANGELOG.md
+303 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/LICENSE.md
+304 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/package.json
+305 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/.npmignore
+306 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/README.md
+307 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/LICENSE
+308 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/cli.js
+309 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/custom.js
+310 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/index.js
+311 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/loose-envify.js
+312 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/replace.js
+313 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/package.json
+314 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/LICENSE
+315 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/index.js
+316 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/changelog.md
+317 silly gunzTarPerm extractEntry node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/readme.md
+318 silly lockFile 6becebf8-de-modules-react-bootstrap-table tar://D:\veres\sdt\node_modules\react-bootstrap-table
+319 silly lockFile 6becebf8-de-modules-react-bootstrap-table tar://D:\veres\sdt\node_modules\react-bootstrap-table
+320 silly lockFile 12479c20-ootstrap-table-3-3-3-package-tgz tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package.tgz
+321 silly lockFile 12479c20-ootstrap-table-3-3-3-package-tgz tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-bootstrap-table\3.3.3\package.tgz
+322 info preinstall react-bootstrap-table@3.3.3
+323 verbose readDependencies using package.json deps
+324 verbose readDependencies using package.json deps
+325 verbose cache add [ 'classnames@^2.1.2', null ]
+326 verbose cache add name=undefined spec="classnames@^2.1.2" args=["classnames@^2.1.2",null]
+327 verbose parsed url { protocol: null,
+327 verbose parsed url   slashes: null,
+327 verbose parsed url   auth: null,
+327 verbose parsed url   host: null,
+327 verbose parsed url   port: null,
+327 verbose parsed url   hostname: null,
+327 verbose parsed url   hash: null,
+327 verbose parsed url   search: null,
+327 verbose parsed url   query: null,
+327 verbose parsed url   pathname: 'classnames@^2.1.2',
+327 verbose parsed url   path: 'classnames@^2.1.2',
+327 verbose parsed url   href: 'classnames@^2.1.2' }
+328 verbose cache add name="classnames" spec="^2.1.2" args=["classnames","^2.1.2"]
+329 verbose parsed url { protocol: null,
+329 verbose parsed url   slashes: null,
+329 verbose parsed url   auth: null,
+329 verbose parsed url   host: null,
+329 verbose parsed url   port: null,
+329 verbose parsed url   hostname: null,
+329 verbose parsed url   hash: null,
+329 verbose parsed url   search: null,
+329 verbose parsed url   query: null,
+329 verbose parsed url   pathname: '^2.1.2',
+329 verbose parsed url   path: '^2.1.2',
+329 verbose parsed url   href: '^2.1.2' }
+330 verbose addNamed [ 'classnames', '^2.1.2' ]
+331 verbose addNamed [ null, '>=2.1.2-0 <3.0.0-0' ]
+332 silly lockFile 2fd6aaf5-classnames-2-1-2 classnames@^2.1.2
+333 verbose lock classnames@^2.1.2 C:\Users\Veres\AppData\Roaming\npm-cache\2fd6aaf5-classnames-2-1-2.lock
+334 verbose cache add [ 'react-modal@^1.4.0', null ]
+335 verbose cache add name=undefined spec="react-modal@^1.4.0" args=["react-modal@^1.4.0",null]
+336 verbose parsed url { protocol: null,
+336 verbose parsed url   slashes: null,
+336 verbose parsed url   auth: null,
+336 verbose parsed url   host: null,
+336 verbose parsed url   port: null,
+336 verbose parsed url   hostname: null,
+336 verbose parsed url   hash: null,
+336 verbose parsed url   search: null,
+336 verbose parsed url   query: null,
+336 verbose parsed url   pathname: 'react-modal@^1.4.0',
+336 verbose parsed url   path: 'react-modal@^1.4.0',
+336 verbose parsed url   href: 'react-modal@^1.4.0' }
+337 verbose cache add name="react-modal" spec="^1.4.0" args=["react-modal","^1.4.0"]
+338 verbose parsed url { protocol: null,
+338 verbose parsed url   slashes: null,
+338 verbose parsed url   auth: null,
+338 verbose parsed url   host: null,
+338 verbose parsed url   port: null,
+338 verbose parsed url   hostname: null,
+338 verbose parsed url   hash: null,
+338 verbose parsed url   search: null,
+338 verbose parsed url   query: null,
+338 verbose parsed url   pathname: '^1.4.0',
+338 verbose parsed url   path: '^1.4.0',
+338 verbose parsed url   href: '^1.4.0' }
+339 verbose addNamed [ 'react-modal', '^1.4.0' ]
+340 verbose addNamed [ null, '>=1.4.0-0 <2.0.0-0' ]
+341 silly lockFile 18f352c9-react-modal-1-4-0 react-modal@^1.4.0
+342 verbose lock react-modal@^1.4.0 C:\Users\Veres\AppData\Roaming\npm-cache\18f352c9-react-modal-1-4-0.lock
+343 verbose cache add [ '@allenfang/react-toastr@2.8.2', null ]
+344 verbose cache add name=undefined spec="@allenfang/react-toastr@2.8.2" args=["@allenfang/react-toastr@2.8.2",null]
+345 verbose parsed url { protocol: null,
+345 verbose parsed url   slashes: null,
+345 verbose parsed url   auth: null,
+345 verbose parsed url   host: null,
+345 verbose parsed url   port: null,
+345 verbose parsed url   hostname: null,
+345 verbose parsed url   hash: null,
+345 verbose parsed url   search: null,
+345 verbose parsed url   query: null,
+345 verbose parsed url   pathname: '@allenfang/react-toastr@2.8.2',
+345 verbose parsed url   path: '@allenfang/react-toastr@2.8.2',
+345 verbose parsed url   href: '@allenfang/react-toastr@2.8.2' }
+346 verbose cache add name="" spec="allenfang/react-toastr@2.8.2" args=["","allenfang/react-toastr@2.8.2"]
+347 verbose parsed url { protocol: null,
+347 verbose parsed url   slashes: null,
+347 verbose parsed url   auth: null,
+347 verbose parsed url   host: null,
+347 verbose parsed url   port: null,
+347 verbose parsed url   hostname: null,
+347 verbose parsed url   hash: null,
+347 verbose parsed url   search: null,
+347 verbose parsed url   query: null,
+347 verbose parsed url   pathname: 'allenfang/react-toastr@2.8.2',
+347 verbose parsed url   path: 'allenfang/react-toastr@2.8.2',
+347 verbose parsed url   href: 'allenfang/react-toastr@2.8.2' }
+348 silly addNameRange { name: 'classnames',
+348 silly addNameRange   range: '>=2.1.2-0 <3.0.0-0',
+348 silly addNameRange   hasData: false }
+349 silly addNameRange { name: 'react-modal',
+349 silly addNameRange   range: '>=1.4.0-0 <2.0.0-0',
+349 silly addNameRange   hasData: false }
+350 verbose cache add name="allenfang/react-toastr" spec="2.8.2" args=["allenfang/react-toastr","2.8.2"]
+351 verbose parsed url { protocol: null,
+351 verbose parsed url   slashes: null,
+351 verbose parsed url   auth: null,
+351 verbose parsed url   host: null,
+351 verbose parsed url   port: null,
+351 verbose parsed url   hostname: null,
+351 verbose parsed url   hash: null,
+351 verbose parsed url   search: null,
+351 verbose parsed url   query: null,
+351 verbose parsed url   pathname: '2.8.2',
+351 verbose parsed url   path: '2.8.2',
+351 verbose parsed url   href: '2.8.2' }
+352 verbose addNamed [ 'allenfang/react-toastr', '2.8.2' ]
+353 verbose addNamed [ '2.8.2', '2.8.2' ]
+354 silly lockFile 861775dd-allenfang-react-toastr-2-8-2 allenfang/react-toastr@2.8.2
+355 verbose lock allenfang/react-toastr@2.8.2 C:\Users\Veres\AppData\Roaming\npm-cache\861775dd-allenfang-react-toastr-2-8-2.lock
+356 verbose url raw react-modal
+357 verbose url resolving [ 'https://registry.npmjs.org/', './react-modal' ]
+358 verbose url resolved https://registry.npmjs.org/react-modal
+359 info trying registry request attempt 1 at 16:48:25
+360 http GET https://registry.npmjs.org/react-modal
+361 verbose url raw allenfang/react-toastr
+362 verbose url resolving [ 'https://registry.npmjs.org/', './allenfang/react-toastr' ]
+363 verbose url resolved https://registry.npmjs.org/allenfang/react-toastr
+364 info trying registry request attempt 1 at 16:48:25
+365 http GET https://registry.npmjs.org/allenfang/react-toastr
+366 verbose url raw classnames
+367 verbose url resolving [ 'https://registry.npmjs.org/', './classnames' ]
+368 verbose url resolved https://registry.npmjs.org/classnames
+369 info trying registry request attempt 1 at 16:48:25
+370 verbose etag W/"590993b5-82b1"
+371 http GET https://registry.npmjs.org/classnames
+372 http 200 https://registry.npmjs.org/react-modal
+373 silly registry.get cb [ 200,
+373 silly registry.get   { server: 'nginx/1.10.1',
+373 silly registry.get     'content-type': 'application/json',
+373 silly registry.get     'last-modified': 'Tue, 18 Apr 2017 19:39:15 GMT',
+373 silly registry.get     etag: 'W/"58f66b63-15685"',
+373 silly registry.get     'content-encoding': 'gzip',
+373 silly registry.get     'cache-control': 'max-age=300',
+373 silly registry.get     'content-length': '9421',
+373 silly registry.get     'accept-ranges': 'bytes',
+373 silly registry.get     date: 'Tue, 09 May 2017 14:48:26 GMT',
+373 silly registry.get     via: '1.1 varnish',
+373 silly registry.get     age: '182',
+373 silly registry.get     connection: 'keep-alive',
+373 silly registry.get     'x-served-by': 'cache-hhn1535-HHN',
+373 silly registry.get     'x-cache': 'HIT',
+373 silly registry.get     'x-cache-hits': '1',
+373 silly registry.get     'x-timer': 'S1494341306.151705,VS0,VE1',
+373 silly registry.get     vary: 'Accept-Encoding' } ]
+374 silly addNameRange number 2 { name: 'react-modal',
+374 silly addNameRange   range: '>=1.4.0-0 <2.0.0-0',
+374 silly addNameRange   hasData: true }
+375 silly addNameRange versions [ 'react-modal',
+375 silly addNameRange   [ '0.0.0',
+375 silly addNameRange     '0.0.1',
+375 silly addNameRange     '0.0.2',
+375 silly addNameRange     '0.0.3',
+375 silly addNameRange     '0.0.4',
+375 silly addNameRange     '0.0.5',
+375 silly addNameRange     '0.0.6',
+375 silly addNameRange     '0.0.7',
+375 silly addNameRange     '0.1.0',
+375 silly addNameRange     '0.1.1',
+375 silly addNameRange     '0.2.0',
+375 silly addNameRange     '0.3.0',
+375 silly addNameRange     '0.5.0',
+375 silly addNameRange     '0.6.0',
+375 silly addNameRange     '0.6.1',
+375 silly addNameRange     '1.0.0',
+375 silly addNameRange     '1.1.0',
+375 silly addNameRange     '1.1.1',
+375 silly addNameRange     '1.1.2',
+375 silly addNameRange     '1.2.0',
+375 silly addNameRange     '1.2.1',
+375 silly addNameRange     '1.3.0',
+375 silly addNameRange     '1.4.0',
+375 silly addNameRange     '1.5.0',
+375 silly addNameRange     '1.5.1',
+375 silly addNameRange     '1.5.2',
+375 silly addNameRange     '1.6.0',
+375 silly addNameRange     '1.6.1',
+375 silly addNameRange     '1.6.2',
+375 silly addNameRange     '1.6.3',
+375 silly addNameRange     '1.6.4',
+375 silly addNameRange     '1.6.5',
+375 silly addNameRange     '1.7.0',
+375 silly addNameRange     '1.7.1',
+375 silly addNameRange     '1.7.2',
+375 silly addNameRange     '1.7.3',
+375 silly addNameRange     '1.7.4',
+375 silly addNameRange     '1.7.5',
+375 silly addNameRange     '1.7.6',
+375 silly addNameRange     '1.7.7' ] ]
+376 verbose addNamed [ 'react-modal', '1.7.7' ]
+377 verbose addNamed [ '1.7.7', '1.7.7' ]
+378 silly lockFile 9e7a102b-react-modal-1-7-7 react-modal@1.7.7
+379 verbose lock react-modal@1.7.7 C:\Users\Veres\AppData\Roaming\npm-cache\9e7a102b-react-modal-1-7-7.lock
+380 silly lockFile aa3e68a2-eact-modal-react-modal-1-7-7-tgz https://registry.npmjs.org/react-modal/-/react-modal-1.7.7.tgz
+381 verbose lock https://registry.npmjs.org/react-modal/-/react-modal-1.7.7.tgz C:\Users\Veres\AppData\Roaming\npm-cache\aa3e68a2-eact-modal-react-modal-1-7-7-tgz.lock
+382 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-modal/-/react-modal-1.7.7.tgz',
+382 verbose addRemoteTarball   '70205f51c58708c487aff681ba3fed7946e391d9' ]
+383 info retry fetch attempt 1 at 16:48:26
+384 verbose fetch to= C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341306058-0.04992350144311786\tmp.tgz
+385 http GET https://registry.npmjs.org/react-modal/-/react-modal-1.7.7.tgz
+386 http 200 https://registry.npmjs.org/classnames
+387 silly registry.get cb [ 200,
+387 silly registry.get   { server: 'nginx/1.10.1',
+387 silly registry.get     'content-type': 'application/json',
+387 silly registry.get     'last-modified': 'Tue, 09 May 2017 09:51:15 GMT',
+387 silly registry.get     etag: 'W/"59119113-82d7"',
+387 silly registry.get     'content-encoding': 'gzip',
+387 silly registry.get     'cache-control': 'max-age=300',
+387 silly registry.get     'content-length': '6475',
+387 silly registry.get     'accept-ranges': 'bytes',
+387 silly registry.get     date: 'Tue, 09 May 2017 14:48:26 GMT',
+387 silly registry.get     via: '1.1 varnish',
+387 silly registry.get     age: '230',
+387 silly registry.get     connection: 'keep-alive',
+387 silly registry.get     'x-served-by': 'cache-hhn1527-HHN',
+387 silly registry.get     'x-cache': 'HIT',
+387 silly registry.get     'x-cache-hits': '1',
+387 silly registry.get     'x-timer': 'S1494341306.168089,VS0,VE0',
+387 silly registry.get     vary: 'Accept-Encoding' } ]
+388 silly addNameRange number 2 { name: 'classnames',
+388 silly addNameRange   range: '>=2.1.2-0 <3.0.0-0',
+388 silly addNameRange   hasData: true }
+389 silly addNameRange versions [ 'classnames',
+389 silly addNameRange   [ '1.0.0',
+389 silly addNameRange     '1.1.0',
+389 silly addNameRange     '1.1.1',
+389 silly addNameRange     '1.1.2',
+389 silly addNameRange     '1.1.3',
+389 silly addNameRange     '1.1.4',
+389 silly addNameRange     '1.2.0',
+389 silly addNameRange     '1.2.1',
+389 silly addNameRange     '1.2.2',
+389 silly addNameRange     '2.0.0',
+389 silly addNameRange     '2.1.0',
+389 silly addNameRange     '2.1.1',
+389 silly addNameRange     '2.1.2',
+389 silly addNameRange     '2.1.3',
+389 silly addNameRange     '2.1.4',
+389 silly addNameRange     '2.1.5',
+389 silly addNameRange     '2.2.0',
+389 silly addNameRange     '2.2.1',
+389 silly addNameRange     '2.2.2',
+389 silly addNameRange     '2.2.3',
+389 silly addNameRange     '2.2.4',
+389 silly addNameRange     '2.2.5' ] ]
+390 verbose addNamed [ 'classnames', '2.2.5' ]
+391 verbose addNamed [ '2.2.5', '2.2.5' ]
+392 silly lockFile 6ef1dd9f-classnames-2-2-5 classnames@2.2.5
+393 verbose lock classnames@2.2.5 C:\Users\Veres\AppData\Roaming\npm-cache\6ef1dd9f-classnames-2-2-5.lock
+394 silly lockFile 6ef1dd9f-classnames-2-2-5 classnames@2.2.5
+395 silly lockFile 6ef1dd9f-classnames-2-2-5 classnames@2.2.5
+396 silly lockFile 2fd6aaf5-classnames-2-1-2 classnames@^2.1.2
+397 silly lockFile 2fd6aaf5-classnames-2-1-2 classnames@^2.1.2
+398 http 200 https://registry.npmjs.org/react-modal/-/react-modal-1.7.7.tgz
+399 verbose tar unpack C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341306058-0.04992350144311786\tmp.tgz
+400 silly lockFile 51bdedea--cache-react-modal-1-7-7-package tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-modal\1.7.7\package
+401 verbose lock tar://C:\Users\Veres\AppData\Roaming\npm-cache\react-modal\1.7.7\package C:\Users\Veres\AppData\Roaming\npm-cache\51bdedea--cache-react-modal-1-7-7-package.lock
+402 silly lockFile 6e51c93e-6058-0-04992350144311786-tmp-tgz tar://C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341306058-0.04992350144311786\tmp.tgz
+403 verbose lock tar://C:\Users\Veres\AppData\Local\Temp\npm-383796-Bw86volT\1494341306058-0.04992350144311786\tmp.tgz C:\Users\Veres\AppData\Roaming\npm-cache\6e51c93e-6058-0-04992350144311786-tmp-tgz.lock
+404 silly gunzTarPerm modes [ '755', '644' ]
+405 silly gunzTarPerm extractEntry package.json
+406 silly gunzTarPerm extractEntry .npmignore
+407 silly gunzTarPerm extractEntry README.md
+408 silly gunzTarPerm extractEntry LICENSE
+409 silly gunzTarPerm extractEntry webpack.test.config.js
+410 silly gunzTarPerm extractEntry webpack.config.js
+411 silly gunzTarPerm extractEntry webpack.dist.config.js
+412 silly gunzTarPerm extractEntry docs/README.md
+413 silly gunzTarPerm extractEntry docs/SUMMARY.md
+414 silly gunzTarPerm extractEntry docs/styles/README.md
+415 silly gunzTarPerm extractEntry docs/styles/classes.md
+416 silly gunzTarPerm extractEntry docs/styles/defaults.md
+417 silly gunzTarPerm extractEntry docs/testing/README.md
+418 silly gunzTarPerm extractEntry UPGRADE_GUIDE.md
+419 silly gunzTarPerm extractEntry book.json
+420 silly gunzTarPerm extractEntry dist/react-modal.js
+421 silly gunzTarPerm extractEntry dist/react-modal.min.js
+422 silly gunzTarPerm extractEntry eslint.json
+423 silly gunzTarPerm extractEntry .travis.yml
+424 silly gunzTarPerm extractEntry lib/index.js
+425 silly gunzTarPerm extractEntry lib/components/Modal.js
+426 silly gunzTarPerm extractEntry lib/components/ModalPortal.js
+427 silly gunzTarPerm extractEntry lib/helpers/ariaAppHider.js
+428 silly gunzTarPerm extractEntry lib/helpers/focusManager.js
+429 silly gunzTarPerm extractEntry lib/helpers/refCount.js
+430 silly gunzTarPerm extractEntry lib/helpers/scopeTab.js
+431 silly gunzTarPerm extractEntry lib/helpers/tabbable.js
+432 silly gunzTarPerm extractEntry CHANGELOG.md
+433 silly gunzTarPerm extractEntry scripts/build
+434 silly gunzTarPerm extractEntry scripts/dev-examples
+435 silly gunzTarPerm extractEntry scripts/preview-release
+436 silly gunzTarPerm extractEntry scripts/release
+437 silly gunzTarPerm extractEntry scripts/test
+438 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+439 silly gunzTarPerm extractEntry .github/PULL_REQUEST_TEMPLATE.md
+440 silly gunzTarPerm extractEntry .babelrc
+441 silly gunzTarPerm extractEntry yarn.lock
+442 http 404 https://registry.npmjs.org/allenfang/react-toastr
+443 silly registry.get cb [ 404,
+443 silly registry.get   { 'content-type': 'application/json',
+443 silly registry.get     'cache-control': 'max-age=0',
+443 silly registry.get     'content-length': '2',
+443 silly registry.get     'accept-ranges': 'bytes',
+443 silly registry.get     date: 'Tue, 09 May 2017 14:48:26 GMT',
+443 silly registry.get     via: '1.1 varnish',
+443 silly registry.get     age: '0',
+443 silly registry.get     connection: 'keep-alive',
+443 silly registry.get     'x-served-by': 'cache-hhn1535-HHN',
+443 silly registry.get     'x-cache': 'MISS',
+443 silly registry.get     'x-cache-hits': '0',
+443 silly registry.get     'x-timer': 'S1494341306.156664,VS0,VE286',
+443 silly registry.get     vary: 'Accept-Encoding' } ]
+444 silly lockFile 861775dd-allenfang-react-toastr-2-8-2 allenfang/react-toastr@2.8.2
+445 silly lockFile 861775dd-allenfang-react-toastr-2-8-2 allenfang/react-toastr@2.8.2
+446 verbose about to build D:\veres\sdt\node_modules\react-bootstrap-table
+447 info D:\veres\sdt\node_modules\react-bootstrap-table unbuild
+448 info preuninstall react-bootstrap-table@3.3.3
+449 info uninstall react-bootstrap-table@3.3.3
+450 verbose true,D:\veres\sdt\node_modules,D:\veres\sdt\node_modules unbuild react-bootstrap-table@3.3.3
+451 info postuninstall react-bootstrap-table@3.3.3
+452 error 404 Not Found
+452 error 404
+452 error 404 'allenfang/react-toastr' is not in the npm registry.
+452 error 404 You should bug the author to publish it
+452 error 404 It was specified as a dependency of 'react-bootstrap-table'
+452 error 404
+452 error 404 Note that you can also install from a
+452 error 404 tarball, folder, or http url, or git url.
+453 error System Windows_NT 6.2.9200
+454 error command "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-bootstrap-table" "--save"
+455 error cwd D:\veres\sdt
+456 error node -v v0.10.31
+457 error npm -v 1.4.9
+458 error code E404
+459 verbose exit [ 1, true ]
